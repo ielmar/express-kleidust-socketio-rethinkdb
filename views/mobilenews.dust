@@ -1,0 +1,17 @@
+{#news}
+<li>
+	<div class="row">
+		<div class="col-xs-5 visible-xs">
+			<a href="{link}" title="{specialcharedTitle|s}" news-id="{id}">
+				<img class="img-responsive" src="{news_img}" alt="{specialcharedTitle|s}" title="{specialcharedTitle|s}">
+			</a>
+		</div>
+		<div class="col-xs-7 col-lg-12 col-md-12 col-sm-12">
+			<a href="{link}" title="{specialcharedTitle|s}" news-id="{id}">
+			{strippedTitle|s}</a>
+			<time class="visible-xs" datetime="{news_date}">
+			{news_time}</time>
+		</div>
+	</div>
+</li>
+{/news}

@@ -1,0 +1,20 @@
+<div class="panel-heading">
+	<h3 class="panel-title">{categoryTitle}</h3>
+</div>
+<div class="panel-body">
+	<ul>
+	{#newsList}
+		<li>
+			<a href="{link}" title="{specialcharedTitle}" news-id="{id}">
+				<img src="{news_img}" alt="{specialcharedTitle}" title="{specialcharedTitle}">
+				<h4>{yazar}</h4>{strippedTitle}
+			</a>
+		</li>
+	 {/newsList}
+	</ul>
+</div>
+<div class="panel-footer">
+	<a href="/koshe-yazilari/" title="Digər köşə yazıları">
+	Digər köşələr
+	</a>
+</div>

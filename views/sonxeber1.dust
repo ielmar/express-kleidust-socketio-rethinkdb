@@ -1,0 +1,4 @@
+{?date}<li class="header"><h3>{date}</h3></li>{/date}
+{#lastNews}
+<li><time datetime="{news_date}">{news_time}</time> | <a href="{link}" title="{specialcharedTitle|s}" news-id="{id}">{strippedTitle|s}</a></li>
+{/lastNews}

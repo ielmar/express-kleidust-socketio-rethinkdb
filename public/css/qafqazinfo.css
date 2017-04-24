@@ -1,0 +1,410 @@
+a{
+    font-weight: bold;
+}
+header,
+content,
+footer {
+    width: 970px;
+}
+span {
+    color: #e22;
+}
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.container {
+    width: 970px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.toplinks {
+    background-color: #d7cdcd;
+    padding: 5px;
+    margin-bottom: 3px;
+}
+.toplinks > div {
+    padding: 0;
+}
+.toplinks > div:hover a {
+    color: #e22;
+}
+.toplinks > div a {
+    font-weight: bold;
+}
+.toplinks > div img {
+    float: left;
+    margin-right: 5px;
+    border: 1px solid #f5f5f5;
+    width: 112px;
+    height: 72px;
+}
+.toplinks > div a:hover img {
+    border: 1px solid #c00;
+}
+.banner > div {
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar-header {
+    padding: 0 0 0 10px;
+}
+.navbar-header a{
+    color: #282828;
+    float: left;
+    padding: 15px 5px;
+    line-height: 20px;
+    height: 50px;
+}
+.navbar-header a:hover,
+.breadcrumb a:hover{
+    color: #e22;
+    text-decoration: none;
+}
+.form-control:focus {
+    border-color: #e22;
+}
+.btn-default:hover {
+    background-color: #e22;
+    color: #fff;
+}
+content .row > div:first-child {
+    padding: 0;
+}
+content .row > div:last-child {
+    padding-right: 0;
+}
+.related-news .panel-body .row > .col-lg-4 {
+    height: 200px;
+}
+#qafqazinfo-manset ol {
+    bottom: 0;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+#qafqazinfo-manset .carousel-indicators li {
+    width: 25px;
+    height: 25px;
+    text-indent: 0;
+    border-radius: 13px;
+    padding-top: 1px;
+    padding-left: 1px;
+    background-color: #f5f5f5;
+}
+#qafqazinfo-manset .carousel-indicators .active {
+    background-color: #e22;
+    color: #fff;
+}
+#qafqazinfo-manset a {
+    width: 637px;
+    height: 400px;
+}
+#qafqazinfo-manset .carousel-caption {
+    width: 637px;
+    height: 110px;
+    background-color: rgba(0,0,0, 0.6);
+    bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    left: 0;
+    right: 0;
+    line-height: 51px;
+    text-shadow: none;
+}
+#qafqazinfo-manset .carousel-caption h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.manset-bottom-banner {
+    border: 2px solid #3848cf;
+    font-size: 18px;
+    text-align: center;
+    width: 637px;
+    height: 65px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.unibank {
+    border: 1px solid rgb(255, 000, 000);
+    text-align:center;
+    margin: 0 0 10px 0;
+    padding: 2px 0 5px 0;
+}
+.unibank span {
+    padding: 0 2px;
+    color: #f47123;
+    display: block;
+}
+.sonxeber {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.sonxeber li:first-child:hover {
+    background: none;
+}
+.sonxeber li:first-child h4 {
+    color: #82817C;
+}
+.sonxeber li {
+    border-bottom: 1px dotted black;
+    padding: 5px 0;
+}
+.sonxeber li:hover {
+    background-color: #f5f5f5;
+}
+.sonxeber li:hover a {
+    text-decoration: none;
+    color: #e22;
+}
+.sonxeber li.header {
+    color: #e22;
+    text-align: center;
+    border-bottom: 1px solid #347EB1;
+}
+.index .panel {
+    margin-top: 10px;
+}
+.index .panel-title span {
+    float: right;
+}
+.index .panel img {
+    width: 216px;
+    height: 135px;
+    margin-bottom: 5px;
+}
+.index .panel li {
+    width: 50%;
+    float: right;
+    font-size: 13px;
+}
+.index .panel li:first-child {
+    float: left;
+    height: 410px;
+    border-bottom: none;
+}
+.index .panel li a {
+    font-size: 14px;
+}
+.index .panel li time {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 3px;
+}
+#qafqazinfo-fotosessiya {
+    margin-bottom: 20px;
+}
+#qafqazinfo-fotosessiya img{
+    max-height: inherit;
+}
+#qafqazinfo-fotosessiya .carousel-inner {
+    height: inherit;
+}
+#qafqazinfo-fotosessiya .carousel-caption {
+    left: 0;
+    right: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    bottom: 0;
+    text-shadow: none;
+}
+#qafqazinfo-fotosessiya .carousel-caption h3 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+#qafqazinfo-fotosessiya .carousel-indicators{
+    left: 0;
+    width: inherit;
+    margin-left: 0;
+    position: inherit;
+    bottom: -5px;
+    margin-bottom: 0;
+    top: 0;
+}
+#qafqazinfo-fotosessiya .carousel-indicators li{
+    width: 72px;
+    height: 42px;
+    border-radius: 0;
+    margin: 0 2px;
+    text-indent: inherit;
+    border-color: inherit;
+    border: inherit;
+}
+#qafqazinfo-fotosessiya .carousel-indicators li:first-child{
+    margin-left: 0;
+}
+#qafqazinfo-fotosessiya .carousel-indicators img {
+    width: 72px;
+    height: 42px;
+    opacity: 0.7;
+/*    border: 1px solid #f5f5f5;*/
+    margin: inherit;
+}
+#qafqazinfo-fotosessiya .carousel-indicators img:hover {
+    opacity: 1;
+/*    border: 1px solid #e22;*/
+}
+#qafqazinfo-fotosessiya .carousel-indicators .active{
+    border-color: inherit;
+    background-color: inherit;
+/*    border: 1px solid #e22;*/
+}
+#qafqazinfo-fotosessiya .carousel-indicators .active img {
+    opacity: 1;
+}
+#qafqazinfo-manset2 {
+    margin-bottom: 20px;
+}
+#qafqazinfo-manset2 .carousel-caption {
+    left: 0;
+    right: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0, 0.6);
+    text-shadow: none;
+}
+#qafqazinfo-manset2 .carousel-caption h3 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+#qafqazinfo-manset2 .carousel-indicators {
+    left: 0;
+    width: inherit;
+    margin-left: 0;
+    position: inherit;
+    bottom: -5px;
+    margin-bottom: 0;
+}
+#qafqazinfo-manset2 .carousel-indicators li{
+    width: 72px;
+    height: 42px;
+    border-radius: 0;
+    margin: 0 2px;
+    text-indent: inherit;
+}
+#qafqazinfo-manset2 .carousel-indicators li:first-child{
+    margin-left: 0;
+}
+#qafqazinfo-manset2 .carousel-indicators img {
+    width: 72px;
+    height: 42px;
+    opacity: 0.7;
+    border: 1px solid #f5f5f5;
+}
+#qafqazinfo-manset2 .carousel-indicators img:hover {
+    opacity: 1;
+    border: 1px solid #e22;
+}
+.panel-body {
+    padding: 0;
+}
+.panel-body ul {
+    padding: 0;
+    list-style: none;
+    line-height: 16px;
+}
+.panel-body ul li {
+    border-bottom: 1px dotted #ccc;
+    min-height: 76px;
+    padding: 5px;
+}
+.panel-body ul li:hover {
+    background-color: #f5f5f5;
+}
+.panel-body ul li:last-child {
+    border-bottom: 0;
+}
+.panel-body ul li a img {
+    float: left;
+    margin-right: 5px;
+    border: 1px solid #f5f5f5;
+    width: 100px;
+    height: 65px;
+}
+.panel-body ul li a h4 {
+    margin-top: 0;
+    margin-bottom: 2px;
+    color: #999;
+}
+.panel-body ul li:hover a {
+    color: #e22;
+    text-decoration: none;
+}
+.panel-body ul li:hover img {
+    border: 1px solid #e22;
+}
+.panel-body ul li a time {
+    font-size: 12px;
+    color: #282828;
+    padding-left: 10px;
+    display: block;
+}
+.panel-body .carousel ol {
+    top: -28px;
+    left: 270px;
+}
+.panel-body .carousel a {
+    color: #1f4f82;
+}
+.panel-body .carousel .carousel-inner {
+    height: 230px;
+}
+.panel-body .carousel .carousel-indicators {
+    height: 7%;
+}
+.panel-body .carousel .carousel-indicators li {
+    border-color: #000;
+}
+.panel-body .carousel .carousel-indicators .active {
+    border-color: #e22;
+    background-color: #e22;
+}
+.panel-body .carousel img {
+    max-height: 192px;
+    overflow: hidden;
+    width: 100%;
+}
+.panel-body .carousel .carousel-caption {
+    color: #1f4f82;
+    text-shadow: none;
+    position: inherit;
+    padding-top: 0;
+}
+.panel-body .carousel .item a:hover,
+.panel-body .carousel .item a:hover .carousel-caption {
+    text-decoration: none;
+    color: #e22;
+    background-color: #f5f5f5;
+}
+.news .panel-body {
+    padding: 0 10px;
+}
+.news img:first-of-type {
+    min-width: 103.2%;
+    max-width: 644px;
+    margin: 0px -5px 0 -10px;
+    border-radius: 3px 3px 0 0;
+}
+.news-time {
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.news-time + div {
+/*        height: 22px!important;*/
+}
+
+.cat_news .items .row {
+    border-bottom: 1px dotted #e22;
+    margin: 5px;
+    padding: 5px;
+}
+footer {
+    background-color: #ebebeb;
+    border-top: 1px solid #c6c6c6;
+    font-size: 12px;
+    padding: 29px 0 12px;
+    min-height: 40px;
+}

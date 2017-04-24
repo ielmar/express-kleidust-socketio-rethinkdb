@@ -1,0 +1,1 @@
+!function(t){function r(t,r){return t.w('<ul class="nav navbar-nav"><li><a href="" title="Ana səhifə">Ana səhifə</a></li><li><a target="_blank" href="/xeber-1/" title="Xəbər">Xəbər</a></li></ul>')}return t.register("tpl-footer.dust",r),r.__dustBody=!0,r}(dust);

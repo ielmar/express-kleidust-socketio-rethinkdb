@@ -1,0 +1,20 @@
+<div class="carousel-inner vertical" role="listbox">
+   {#manset}
+	<div class="item {?isActive}active{/isActive}">
+		<a title="{specialcharedTitle}" href="{link}" news-id="{id}">
+			<img src="{news_img}" alt="{specialcharedTitle}" title="{specialcharedTitle}">
+			<div class="carousel-caption">
+				<h3>{strippedTitle|s}</h3>
+			</div>
+		</a>
+	</div>
+	{/manset}
+</div>
+<ol class="carousel-indicators">
+	{#manset}
+	<li data-target="#qafqazinfo-{carouselId}" data-slide-to="{indicatorId}" class="{?isActive}active{/isActive}">
+		{?indicatorId2}<span>{indicatorId2}</span>
+		{/indicatorId2}
+	</li>
+	{/manset}
+</ol>

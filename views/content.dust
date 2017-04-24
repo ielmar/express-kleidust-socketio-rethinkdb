@@ -1,0 +1,16 @@
+                    <div class="row {class}">
+                        <div class="col-xs-3">
+                           {?ad}
+                            <div class="unibank">
+                                <a href="https://www.facebook.com/unibank.az/photos/a.95797086237.89666.95588021237/10153063542036238/?type=1&amp;theater" target="_blank">
+                                    <img src="/images/unibank.jpg" alt="" title="">
+                                    <span>0% KOMİSSİYALI  NAĞD  KREDİT</span>
+                                </a>
+                            </div>
+                           {/ad}
+                            <ul class="sonxeber">
+                            </ul>
+                        </div>
+                        <div class="col-xs-9 index">
+                        </div>
+                    </div>

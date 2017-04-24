@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+<title>{title}</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<base href="//new.qafqazinfo.az">
+<meta name="google-site-verification" content="" />
+<meta name='yandex-verification' content='' />
+<meta name="msvalidate.01" content="" />
+<meta name="alexaVerifyID" content="" />
+<meta name="generator" content="ElitNewsCMS - www.elitsolutions.com" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
+<!--meta http-equiv="refresh" content="180" -->
+{>"partials/facebook.dust"/}
+<!-- Start Alexa Certify Javascript -->
+<script type="text/javascript">
+_atrk_opts = { atrk_acct:"n/ONh1awVK008R", domain:"qafqazinfo.az",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=n/ONh1awVK008R" style="display:none" height="1" width="1" alt="" /></noscript>
+<!-- End Alexa Certify Javascript -->
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage">
+    <div id="fb-root"></div>
+    <div class="container">
+        <header>
+        </header>
+        <content>
+            <div class="row">
+                <div class="col-xs-8 content-left">
+                    
+                </div>
+                <div class="col-xs-4 content-right">
+                    
+                </div>
+            </div>
+        </content>
+        <footer>
+        </footer>
+    </div>
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/socket.io.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/dust-core.min.js"></script>
+<script type="text/javascript" src="/js/all.min.js"></script>
+<script type="text/javascript" src="/js/qafqazinfo.js"></script>
+</body>
+</html>

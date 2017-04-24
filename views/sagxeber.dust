@@ -1,0 +1,29 @@
+<div class="panel-heading">
+	<h3 class="panel-title">{categoryTitle}</h3>
+</div>
+<div class="panel-body">
+	<div id="qafqazinfo-{class}" class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner vertical" role="listbox">
+		{#carouselItems}
+			<div class="item {?isActive}active{/isActive}">
+				<a href="{link}" title="{specialcharedTitle}" news-id="{id}">
+					<img src="{news_img}" alt="{specialcharedTitle}" title="{specialcharedTitle}">
+					<div class="carousel-caption">
+					{strippedTitle|s}                                           
+					</div>
+				</a>
+			</div>
+		{/carouselItems}
+		</div>
+		<ol class="carousel-indicators">
+			{#carouselItems}
+			<li data-target="#qafqazinfo-{class}" data-slide-to="{indicatorId}" {?isActive}class="active"{/isActive}></li>
+			{/carouselItems}
+		</ol>
+	</div>
+</div>
+<div class="panel-footer">
+	<a href="{}" title="{footerTitle}">
+	Digərləri
+	</a>
+</div>
